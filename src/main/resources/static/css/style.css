@@ -1,11 +1,16 @@
 body {
     text-align: center;
     background: chocolate;
+
 }
 .input {
     padding: 10px;
     border-radius: 50px;
     border-bottom-color: chocolate;
+}
+
+.lista {
+    list-style:none;
 }
 /*
 #movies-section {
