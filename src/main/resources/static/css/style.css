@@ -1,3 +1,4 @@
+
 body {
     text-align: center;
     background: chocolate;
@@ -11,6 +12,12 @@ body {
 
 .lista {
     list-style:none;
+}
+
+@media screen and (max-width: 360px) {
+    body {
+        border-radius: 15px;
+    }
 }
 /*
 #movies-section {
