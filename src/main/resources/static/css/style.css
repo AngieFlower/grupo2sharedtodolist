@@ -1,19 +1,17 @@
 body{
-    /*width: 100%;
-    height: 100vh;
-    margin-top: 50px;
-    align-items: center;
-    text-align: center;*/
     background-color: #000000;
     margin: auto;
     font-family: "Century Gothic", "Arial", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter";
 }
-
-
 .header{
     background: #e1701a;
     height: 60px;
     padding: 0 30px;
+}
+.principal{
+    background: white;
+    width: 314px;
+    height: 457px;
 }
 .input {
     padding: 10px;
