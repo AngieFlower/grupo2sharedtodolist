@@ -1,5 +1,5 @@
 body{
-    background-color: #000000;
+    background-color: #ffffff;
     margin: auto;
     font-family: "Century Gothic", "Arial", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter";
     display: flex;
@@ -9,7 +9,8 @@ body{
 .header{
     background: #e1701a;
     height: 60px;
-    width: 314px;
+    width:1836px;
+
     }
 .principal{
     background: white;
@@ -26,6 +27,7 @@ body{
    }
 
 .TaskList {
+
     list-style:none;
 }
 
