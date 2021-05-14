@@ -2,22 +2,28 @@ body{
     background-color: #000000;
     margin: auto;
     font-family: "Century Gothic", "Arial", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter";
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .header{
     background: #e1701a;
     height: 60px;
-    padding: 0 30px;
-}
+    width: 314px;
+    }
 .principal{
     background: white;
     width: 314px;
     height: 457px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .input {
     padding: 10px;
     border-radius: 50px;
     border-bottom-color: chocolate;
-}
+   }
 
 .lista {
     list-style:none;
