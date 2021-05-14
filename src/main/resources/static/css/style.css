@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
 body{
-    width: 100%;
+    /*width: 100%;
     height: 100vh;
     margin-top: 50px;
     align-items: center;
-    text-align: center;
-    background: chocolate;
+    text-align: center;*/
+    background-color: #000000;
+    margin: auto;
+    font-family: "Century Gothic", "Arial", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter";
+}
+
+
+.header{
+    background: #e1701a;
+    height: 60px;
+    padding: 0 30px;
 }
 .input {
     padding: 10px;
