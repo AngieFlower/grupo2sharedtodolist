@@ -9,9 +9,11 @@ body{
 .header{
     background: #e1701a;
     height: 60px;
-    width:1836px;
+    width: 1736px;
+    background-size: 100% 100%;
 
-    }
+
+}
 .principal{
     background: white;
     width: 314px;
@@ -23,17 +25,26 @@ body{
 .lista{
     list-style:none;
 }
+.contenedor{
+    background: #fbfbfb;
+    height: 60px;
+    width:836px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .input {
     padding: 10px;
     border-radius: 50px;
     border:none;
-   }
+
+}
 
 .boton {
-    color: white;
+    color: #b19393;
     background-size: 100% 100%;
-   border:none;
+    border:none;
 
 
 border-radius: 50%;
