@@ -1,4 +1,4 @@
-package org.factof5.grupo2sharedtodolist;
+package org.factof5.grupo2sharetask;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

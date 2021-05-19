@@ -1,4 +1,4 @@
-package org.factof5.grupo2sharedtodolist;
+package org.factof5.grupo2sharetask;
 
 public class Task {
     private final String task;
