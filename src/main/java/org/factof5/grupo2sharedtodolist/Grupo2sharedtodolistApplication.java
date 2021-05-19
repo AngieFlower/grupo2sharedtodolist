@@ -1,4 +1,4 @@
-package org.factof5.grupo2sharetask;
+package org.factof5.grupo2sharedtodolist;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
