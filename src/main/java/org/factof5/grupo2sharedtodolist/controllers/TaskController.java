@@ -1,4 +1,6 @@
-import org.factof5.grupo2sharedtodolist.Task;
+package org.factof5.grupo2sharedtodolist.controllers;
+
+import org.factof5.grupo2sharedtodolist.model.Task;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
