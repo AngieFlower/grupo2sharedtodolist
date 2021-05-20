@@ -20,7 +20,7 @@ public class TaskController {
         tasks.add(task);
     }
 
-@DeleteMapping ("/tasks/{index}")
+    @DeleteMapping ("/tasks/{index}")
     void deleteTask(@PathVariable int index) {
         tasks.remove(index);
     }
