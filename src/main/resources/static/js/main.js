@@ -1,9 +1,9 @@
-const taskSection = document.querySelector("#task-section");
+const tasks= document.querySelector("#task-section");
 
 // 3)
 function showTask(tasks) {
-    taskSectionSection.innerHTML = "";
-    task.forEach((task, position) => {
+    tasks.innerHTML = "";
+    tasks.forEach((task, position) => {
         const htmlElement = document.createElement("div");
         htmlElement.innerHTML = `<div class="task">
             <div 
@@ -11,7 +11,7 @@ function showTask(tasks) {
                 onclick="fetch(\`/tasks/${position}\`, { method: 'DELETE'}).then(reloadTasks)">x</div>
             <p class="title">${task.title} (${task.year})</p>
         </div>`;
-        tasksSection.appendChild(htmlElement)
+        tasks.appendChild(htmlElement)
     })
 }
 
@@ -20,7 +20,8 @@ function showTask(tasks) {
 let reloadTasks = () => {
     fetch("/task")
         .then(r => r.json())
-        .then(showTasks)
+        .then(showTask)
 };
 
 // 1)
+document.addEventListener("DOMContentLoaded",reloadTasks)
