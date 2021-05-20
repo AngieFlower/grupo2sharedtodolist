@@ -1,6 +1,7 @@
 package org.factof5.grupo2sharedtodolist.controllers;
 
 import org.factof5.grupo2sharedtodolist.model.Task;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,9 +17,15 @@ public class TaskController {
     public List<Task> allTasks(){
         return tasks;
  }
-    @PostMapping("/Task")
+    @PostMapping("/tasks")
     public void addTask(Task task){
         tasks.add(task);
     }
+
+@DeleteMapping ("/tasks/{index}")
+    void deleteTask(@PathVariable int index) {
+        tasks.remove(index);
+    }
+
 
 }
