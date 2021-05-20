@@ -2,6 +2,7 @@ package org.factof5.grupo2sharedtodolist.controllers;
 
 import org.factof5.grupo2sharedtodolist.model.Task;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.view.RedirectView;
 
 
 import java.util.ArrayList;
@@ -16,8 +17,9 @@ public class TaskController {
         return tasks;
  }
     @PostMapping("/tasks")
-    public void addTask(Task task){
+    public RedirectView addTask(Task task){
         tasks.add(task);
+        return new RedirectView("/");
     }
 
     @DeleteMapping ("/tasks/{index}")
