@@ -13,7 +13,7 @@ public class TaskController {
     private final List<Task> tasks = new ArrayList<>();
 
     @GetMapping("/tasks")
-    public List<Task> allTasks(){
+    public List<Task> allTask(){
         return tasks;
  }
     @PostMapping("/tasks")

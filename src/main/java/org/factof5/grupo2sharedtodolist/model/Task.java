@@ -8,7 +8,7 @@ public class Task {
         this.description = description;
     }
 
-    public String getTask() {
+    public String getDescription() {
         return description;
     }
 }
