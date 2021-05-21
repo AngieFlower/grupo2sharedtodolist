@@ -9,7 +9,7 @@ function showTask(tasks) {
             <div 
                 class="close-button" 
                 onclick="fetch(\`/tasks/${position}\`, { method: 'DELETE'}).then(reloadTasks)">x</div>
-            <p class="title">${task.description}</p>
+            <p class="task">${task.description}</p>
         </div>`;
         tasksSection.appendChild(htmlElement)
     })
