@@ -8,7 +8,7 @@ function showTask(tasks) {
         htmlElement.innerHTML = `<div class="task">
             <div 
                 class="close-button" 
-                onclick="fetch(\`/tasks/${position}\`, { method: 'DELETE'}).then(reloadTasks)"></div>
+                onclick="fetch(\`/tasks/${position}\`, { method: 'DELETE'}).then(reloadTasks)">x</div>
             <p class="title">${task.description}</p>
         </div>`;
         tasksSection.appendChild(htmlElement)
