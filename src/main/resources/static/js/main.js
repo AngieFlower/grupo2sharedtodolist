@@ -3,12 +3,12 @@ const tasksSection= document.querySelector("#task-section");
 // 3)
 function showTask(tasks) {
     tasksSection.innerHTML = "";
-    tasksSection.forEach((task, position) => {
+    tasks.forEach((task, position) => {
         const htmlElement = document.createElement("div");
         htmlElement.innerHTML = `<div class="task">
             <div 
                 class="close-button" 
-                onclick="fetch(\`/tasks/${position}\`, { method: 'DELETE'}).then(reloadTasks)">x</div>
+                onclick="fetch(\`/tasks/${position}\`, { method: 'DELETE'}).then(reloadTasks)"></div>
             <p class="title">${task.description}</p>
         </div>`;
         tasksSection.appendChild(htmlElement)
