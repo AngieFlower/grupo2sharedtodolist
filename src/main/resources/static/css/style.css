@@ -9,7 +9,7 @@ body{
 .header{
     background: #e1701a;
     height: 60px;
-    width: 1736px;
+    width: 1600px;
     background-size: 100% 100%;
 
 
@@ -20,29 +20,36 @@ body{
     height: 457px;
     display: flex;
     align-items: center;
-    flex-direction: column;
+
 }
 .lista{
     list-style:none;
 }
 .contenedor{
-    background: #fbfbfb;
+    background: #f3ecec;
     height: 60px;
-    width:836px;
+    width:1600px;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    bottom: 0;
+    border: none;
+    left: 0%;
+    background-size: 100% 100%;
+
 }
 
-.input {
+#description {
     padding: 10px;
     border-radius: 50px;
     border:none;
 
 }
 
-.boton {
-    color: #b19393;
+#addboton{
+    color: #ffffff;
+    background-color: #e1701a;
     background-size: 100% 100%;
     border:none;
 
