@@ -1,10 +1,8 @@
-body{
-    background-color: #ffffff;
-    margin: auto;
-    font-family: "Century Gothic", "Arial", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter";
-
+body {
+    text-align: center;
 }
-.orangeDiv{
+
+    .orangeDiv{
     background: #e1701a;
     height: 60px;
     width: 100%;
@@ -23,10 +21,10 @@ body{
     background: #f3ecec;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position:absolute;
     bottom: 0;
     border: none;
-    left: 0;
+    left:0;
     width: 100%;
 
 
