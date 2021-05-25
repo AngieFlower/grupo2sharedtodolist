@@ -2,41 +2,43 @@ body{
     background-color: #ffffff;
     margin: auto;
     font-family: "Century Gothic", "Arial", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter";
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+
 }
-.header{
+.orangeDiv{
     background: #e1701a;
     height: 60px;
-    width: 1600px;
-    background-size: 100% 100%;
-
+    width: 100%;
 
 }
-.principal{
+.taskList{
     background: white;
-    width: 314px;
-    height: 457px;
-    display: flex;
+    width: 100%;
     align-items: center;
 
 }
 .lista{
     list-style:none;
 }
-.contenedor{
+.formArea{
     background: #f3ecec;
-    height: 60px;
-    width:1600px;
-    display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     bottom: 0;
     border: none;
-    left: 0%;
-    background-size: 100% 100%;
+    left: 0;
+    width: 100%;
+
+
+
+}
+.close-button{
+    color: #ffffff;
+    background-color: #e3dddd;
+    border:antiquewhite;
+    border-radius: 50%;
+    height: 60px;
+    width:60px;
 
 }
 
@@ -50,18 +52,11 @@ body{
 #addboton{
     color: #ffffff;
     background-color: #e1701a;
-    background-size: 100% 100%;
     border:none;
-
-
-border-radius: 50%;
+    border-radius: 50%;
 }
 
-@media screen and (max-width: 360px) {
-    body {
-        border-radius: 15px;
-    }
-}
+
 /*
 #movies-section {
     display: flex;
