@@ -1,5 +1,7 @@
 body {
     text-align: center;
+    margin: 0;
+
 }
 
 .orangeDiv{
@@ -31,12 +33,18 @@ body {
 
 }
 .close-button{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
     color: #ffffff;
     background-color: #e3dddd;
     border:antiquewhite;
     border-radius: 50%;
     height: 30px;
     width:30px;
+
 
 }
 
