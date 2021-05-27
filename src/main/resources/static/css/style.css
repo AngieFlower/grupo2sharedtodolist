@@ -82,6 +82,7 @@ form{
 #refresh{
     display: flex;
     justify-content: left;
+    background-size: 100%;
 
 
 }
