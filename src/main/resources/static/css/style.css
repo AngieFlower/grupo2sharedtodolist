@@ -10,7 +10,7 @@ body {
 .taskList{
     background: white;
     width: 100%;
-    align-items: center;
+
 }
 .lista{
     list-style:none;
@@ -56,7 +56,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25px;
     margin: 10px;
 }
 .taskText {
@@ -66,10 +65,13 @@ body {
     font-size: 20px;
     border: none;
     font-family: "Arial";
+    margin-left: 10px;
 }
 #task-section{
     display:flex;
     text-align: left ;
+    flex-direction: column;
+    padding: 20px;
 }
 
 /*
