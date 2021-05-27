@@ -79,7 +79,12 @@ form{
     flex-direction: column;
     padding: 20px;
 }
+#refresh{
+    display: flex;
+    justify-content: left;
 
+
+}
 /*
 #movies-section {
     display: flex;
