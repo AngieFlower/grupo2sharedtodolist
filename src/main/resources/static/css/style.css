@@ -10,9 +10,20 @@ form{
     background: #e1701a;
     height: 60px;
     width: 100%;
-
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
+#refresh{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin: 10px;
+    margin-left: 10px;
+
+}
+
 .taskList{
     background: white;
     width: 100%;
@@ -79,13 +90,7 @@ form{
     flex-direction: column;
     padding: 20px;
 }
-#refresh{
-    display: flex;
-    justify-content: left;
-    background-size: 100%;
 
-
-}
 /*
 #movies-section {
     display: flex;
